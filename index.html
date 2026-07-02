@@ -776,13 +776,13 @@ footer { position:relative; z-index:1; text-align:center; padding:1.8rem; border
       <img class="jewel-img" src="imgs/image83.jpeg" alt="首饰手绘二" loading="lazy">
       <img class="jewel-img" src="imgs/image84.jpeg" alt="首饰手绘三" loading="lazy">
     </div>
-    <!-- Row 2: 两竖图 85(0.72比) + 86(0.71比) 等高 -->
-    <div class="jewel-row" style="grid-template-columns:1fr 1fr">
-      <img class="jewel-img" src="imgs/image85.png"  alt="首饰手绘四" loading="lazy">
-      <img class="jewel-img" src="imgs/image86.jpeg" alt="首饰手绘五" loading="lazy">
+    <!-- Row 2: 横图单独占满一行 (85, ratio 1.56) -->
+    <div class="jewel-row" style="grid-template-columns:1fr">
+      <img class="jewel-img" src="imgs/image85.png" alt="首饰手绘四" loading="lazy">
     </div>
-    <!-- Row 3: 两竖图 87(0.70比) + 88(0.69比) 等高 -->
-    <div class="jewel-row" style="grid-template-columns:1fr 1fr">
+    <!-- Row 3: 三张竖图并排 (86/87/88 ≈ 0.70) -->
+    <div class="jewel-row" style="grid-template-columns:repeat(3,1fr)">
+      <img class="jewel-img" src="imgs/image86.jpeg" alt="首饰手绘五" loading="lazy">
       <img class="jewel-img" src="imgs/image87.jpeg" alt="首饰手绘六" loading="lazy">
       <img class="jewel-img" src="imgs/image88.jpeg" alt="首饰手绘七" loading="lazy">
     </div>
